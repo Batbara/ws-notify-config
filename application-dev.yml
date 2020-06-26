@@ -1,8 +1,5 @@
 spring:
   application:
-    name: yoke-notify
-  profiles:
-    active: dev
 
   data:
     mongodb:
@@ -10,7 +7,7 @@ spring:
       port: 27017
       authentication-database: admin
       username: root
-      password: example
+      password: '{cipher}AQBCYweSWBo0MNN8wguBIExZVgrfsIA4I8WRu0npRcuFOPaWKvv7QPjB0bSdVqJPX1ei4nGqaUCtE2RKaEsMSpJ5aew7sUfPrxd3LNw6aID8aEqxRXfIyJztRNf7Feht0fCwOFz4/c8MRMiMw+tCj+MDAV/aqEZCzVtW6jSSjXnWDBTy1Kjx5UPilm2nIBwjj67vraZwNowgDvzgNFSnHINqffBxlm9qwgTvnPHCDxNEVFC+rBFQniVpNFm21rpGPEOswxF6F3dkrYgYwNVJ+/0nLecz/GKBW3hObxnke0J4+DPOcnCbT1mBjlvlaJrp3HH4e6+9Gs7ARMJUTxsGsR9XFQvA/69DZi7MszbiQIyz0n9eG1BHIAyYwThD0VStg6w='
       database: yoke
 
 server:
